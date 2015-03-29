@@ -1,0 +1,66 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	font-family: 'Droid Serif', serif;
+}
+
+.margin-zero { margin: 0px; }
+
+.center { text-align: center; }
+.right { text-align: right; }
+.left { text-align: left; }
+.justify { text-align: justify; }
+
+.padding-tb-small { padding-top: 10px; padding-bottom: 10px; }
+.padding-tb-large { padding-top: 30px; padding-bottom: 30px; }
+
+.full-container { padding: 30px; }
+
+.text-color-1 { color: #FFF; }
+.text-color-2 { color: #ED6C3C; }
+.text-color-3 { color: #EC403D; }
+
+.text-size-small { font-size: 18px; }
+.text-size-medium { font-size: 24px; }
+.text-size-large { font-size: 28px; }
+
+.bg-color-1 { background-color: #BAC4C7;  }
+
+.header { 
+	font-size: 32px; 
+	font-weight: bold;
+}
+
+.hero {
+	height: 400px;
+	background: url(../assets/cross.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.hero-scripture {
+	font-size: 30px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.quote {
+	background: #BAC4C7; 
+	border-top: 3px solid #fff;
+}
+
+.quote blockquote {
+	margin-bottom: 0px;
+}
+
+.quote-message {
+	padding: 20px 40px 0px 40px;
+	font-family: 'Courgette', cursive;
+}
+
+
+.quote-img {
+	border-radius: 100%;
+	width: 140px;
+	height: 140px;
+	border: 3px solid #fff;
+}
